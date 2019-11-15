@@ -16,7 +16,7 @@ This project features the following:
 
 - dynamic and static page examples
 
-You can see a live demo of this repo at [inextjs.now.sh](https://inextjs-layout.now.sh/)
+You can see a live demo of this repo at [inextjs-layout.now.sh](https://inextjs-layout.now.sh/)
 
 ## About
 
