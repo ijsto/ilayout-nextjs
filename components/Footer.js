@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Socials from "./Socials";
 
 export const Footer = () => {
@@ -10,9 +9,9 @@ export const Footer = () => {
         <div className="whatisthis">NextJS Starter App</div>
         <div className="madein">
           Packaged with ♡ at{" "}
-          <Link href="https://ijs.to/">
-            <a target="_blank">iJS.to</a>
-          </Link>
+          <a href="https://ijs.to/" target="_blank">
+            iJS.to
+          </a>
         </div>
       </footer>
       <style jsx>{`
