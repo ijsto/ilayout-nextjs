@@ -4,37 +4,53 @@ export const About = () => {
       <h1>About Page</h1>
       <p>
         NextJS is a framework that makes it easy to create Universal web apps in
-        React. With Next.js, React pages are automatically rendered on both
-        client and server side, without the hassle of setting up dependancies
-        like webpack or babel and with automatic routing. This is a simple
-        starter project that demonstrates how to use NextJS with custom layout
-        and some modular styles via <code>{"<style jsx />"}</code> and{" "}
-        <code>{"<style global jsx />"}</code> tags.
+        React.
+      </p>
+      <p>
+        With Next.js, React pages are automatically rendered on both client and
+        server side, without the hassle of setting up dependancies like webpack
+        or babel and with automatic routing.{" "}
+      </p>
+      <p>
+        This is a simple starter project that demonstrates how to use NextJS
+        with custom layout and some modular styles via{" "}
+        <code>{"<style jsx />"}</code> and <code>{"<style global jsx />"}</code>{" "}
+        tags.
       </p>
       <h2>Get Started (3 minutes)</h2>
       <ul>
         <li>
-          1. Clone the the [starter repo](https://github.com/ijsto/nextjs)
-          <code>git clone git@github.com:ijsto/inextjs.git</code>
+          1. Clone the the{" "}
+          <a href="https://github.com/ijsto/inextjs-layout">starter repo</a>
+          <p>
+            <code>git clone git@github.com:ijsto/inextjs-layout.git</code>
+          </p>
         </li>
         <li>
           2. Enter the directory
-          <code>cd inextjs</code>
+          <p>
+            <code>cd inextjs-layout</code>
+          </p>
         </li>
         <li>
-          3. Install project dependencies <code>npm install</code> or{" "}
-          <code>npm i</code>
+          3. Install project dependencies
+          <p>
+            <code>npm install</code> or <code>npm i</code>
+          </p>
         </li>
         <li>
-          To run the project locally: <code>npm run dev</code>
+          To run the project locally:
+          <p>
+            <code>npm run dev</code>
+          </p>
         </li>
         <li>
           Starter project is live at:{" "}
           <a href="http://localhost:3000">http://localhost:3000</a>
         </li>
       </ul>
-      <h2>The starter is now ready - have fun!</h2>
 
+      <h2>The starter is now ready - have fun!</h2>
       <style jsx>{`
         * {
           line-height: 1.5;
