@@ -1,8 +1,10 @@
+import SingleBookLayout from "../../layouts/SingleBookLayout";
+
 const SingleBook = ({ query }) => {
   return (
     <div className="content">
       <h1>
-        <span style={{ opacity: 0.5, fontSize: '0.5em' }}>Query name:</span>{' '}
+        <span style={{ opacity: 0.5, fontSize: "0.5em" }}>Query name:</span>{" "}
         {query.name}!
       </h1>
       <h2 style={{ marginTop: 32 }}>This is a dynamic page.</h2>
@@ -18,6 +20,7 @@ const SingleBook = ({ query }) => {
   );
 };
 
+SingleBook.Layout = SingleBookLayout;
 SingleBook.getInitialProps = async ({ query }) => {
   // Visit https://iJS.to to learn how to use fetch in getInitialProps
 
