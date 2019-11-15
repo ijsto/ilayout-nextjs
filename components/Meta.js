@@ -47,6 +47,7 @@ export const Meta = () => {
 
         .content {
           padding: 2em 3em;
+          padding-bottom: 300px;
         }
       `}</style>
     </>
