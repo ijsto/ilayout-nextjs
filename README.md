@@ -40,7 +40,7 @@ git clone git@github.com:ijsto/inextjs-layout.git
 
 ```
 
-cd inextjs
+cd inextjs-layout
 
 ```
 
