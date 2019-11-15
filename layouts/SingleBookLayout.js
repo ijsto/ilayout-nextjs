@@ -25,6 +25,7 @@ const SingleBookLayout = ({ children }) => (
         .single-book-wrapper {
           display: flex;
           justify-content: center;
+          padding-bottom: 300px;
         }
         .single-book {
           display: grid;

@@ -1,4 +1,5 @@
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const DefaultLayout = ({ children }) => (
   <>
@@ -6,10 +7,12 @@ const DefaultLayout = ({ children }) => (
     <div className="page-content-wrapper">
       <div className="page-content">{children}</div>
 
+      <Footer />
       <style jsx global>{`
         .page-content-wrapper {
           display: flex;
           justify-content: center;
+          padding-bottom: 300px;
         }
         .page-content {
           display: grid;
