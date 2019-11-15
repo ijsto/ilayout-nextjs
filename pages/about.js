@@ -22,25 +22,29 @@ export const About = () => {
           <code>cd inextjs</code>
         </li>
         <li>
-          3. Install project dependencies
-          <code>npm install</code> or <code>npm i</code>
+          3. Install project dependencies <code>npm install</code> or{" "}
+          <code>npm i</code>
+        </li>
+        <li>
           To run the project locally: <code>npm run dev</code>
-          Starter project is live at:
+        </li>
+        <li>
+          Starter project is live at:{" "}
           <a href="http://localhost:3000">http://localhost:3000</a>
         </li>
       </ul>
-      <h2>The starter is now</h2>
-      ready - have fun!
-      <div>And bunch of information that we deeply care about</div>
+      <h2>The starter is now ready - have fun!</h2>
+
       <style jsx>{`
         * {
           line-height: 1.5;
         }
         code {
-          background: #262626;
-          border-radius: 0.5em;
-          color: beige;
-          padding: 0.25em;
+          padding: 0.2em 0.4em;
+          margin: 0;
+          font-size: 85%;
+          background-color: rgba(27, 31, 35, 0.05);
+          border-radius: 3px;
         }
       `}</style>
     </div>
