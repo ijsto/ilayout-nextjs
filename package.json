@@ -1,0 +1,41 @@
+{
+  "name": "inextjs-layout",
+  "version": "1.0.0",
+  "description": "Next.js boilerplate/starter project by iJS",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ijsto/inextjs-layout.git"
+  },
+  "homepage": "https://ijs.to",
+  "bugs": {
+    "url": "https://github.com/ijsto/inextjs-layout/issues",
+    "email": "code@ijs.to"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "formik": "^2.0.4",
+    "graphql": "^14.5.8",
+    "next": "^9.1.3",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "styled-components": "^4.4.1"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "nextjs",
+    "nextjs layout",
+    "react",
+    "boilerplate",
+    "starter project"
+  ],
+  "author": "Scott Agirs Neminskis - iJS.to",
+  "license": "ISC"
+}
