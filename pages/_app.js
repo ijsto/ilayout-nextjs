@@ -1,6 +1,7 @@
 import App from "next/app";
 
 import Page from "../components/Page";
+import DefaultLayout from "../layouts/DefaultLayout";
 
 class AppWrapper extends App {
   static async getInitialProps({ Component, ctx }) {
@@ -17,6 +18,7 @@ class AppWrapper extends App {
   }
   render() {
     const { Component, pageProps } = this.props;
+    const Layout = Component.Layout || DefaultLayout;
 
     return (
       <Page>
