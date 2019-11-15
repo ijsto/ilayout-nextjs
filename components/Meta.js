@@ -7,7 +7,7 @@ export const Meta = () => {
         <title>iJS.to - Modern Javascript Courses</title>
 
         <link
-          href="https://fonts.googleapis.com/css?family=Comfortaa|Source+Sans+Pro:700&display=swap"
+          href="https://fonts.googleapis.com/css?family=Space+Mono|Source+Sans+Pro:700&display=swap"
           rel="stylesheet"
         />
         <link rel="shortcut icon" href="/favicon.png" />
@@ -33,7 +33,7 @@ export const Meta = () => {
         }
 
         * {
-          font-family: "Comfortaa", sans-serif;
+          font-family: "Space Mono", sans-serif;
           box-sizing: border-box;
           color: #776677;
           margin: 0;

@@ -2,7 +2,7 @@ import SingleBookLayout from "../../layouts/SingleBookLayout";
 
 const SingleBook = ({ query }) => {
   return (
-    <div className="content">
+    <div>
       <h1>
         <span style={{ opacity: 0.5, fontSize: "0.5em" }}>Query name:</span>{" "}
         {query.name}!
