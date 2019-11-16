@@ -1,8 +1,8 @@
 const SingleBook = ({ query }) => {
   return (
-    <div className="content">
+    <div>
       <h1>
-        <span style={{ opacity: 0.5, fontSize: '0.5em' }}>Query name:</span>{' '}
+        <span style={{ opacity: 0.5, fontSize: "0.5em" }}>Query name:</span>{" "}
         {query.name}!
       </h1>
       <h2 style={{ marginTop: 32 }}>This is a dynamic page.</h2>

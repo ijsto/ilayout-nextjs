@@ -1,6 +1,6 @@
 export const About = () => {
   return (
-    <div className="content">
+    <div>
       <h1>About Page</h1>
       <p>
         NextJS is a framework that makes it easy to create Universal web apps in

@@ -1,6 +1,6 @@
 export default () => (
   <>
-    <div className="content">
+    <div>
       <h1>Your first NextJS app</h1>
       <div>Have fun and build stuff!</div>
 
