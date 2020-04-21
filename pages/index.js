@@ -1,30 +1,30 @@
 export default () => (
   <>
     <div>
-      <h1>Your first NextJS app</h1>
-      <div>Have fun and build stuff!</div>
+      <h1>Next.js starter</h1>
+      <div style={{marginBottom: 64}}>Have fun and build stuff - dynamic layouts are already done!</div>
 
-      <a href="https://ijs.to/courses/" target="_blank">
-        <h2>Learn code on iJS.to</h2>
+      <a href="https://ijs.to/" rel="noopener noreferrer" target="_blank">
+        <p>Learn code on iJS.to</p>
       </a>
       <ul>
         <li>
-          <a href="https://ijs.to/courses/nextjs" target="_blank">
+          <a href="https://ijs.to/courses/nextjs" rel="noopener noreferrer" target="_blank">
             NextJS
           </a>
         </li>
         <li>
-          <a href="https://ijs.to/courses/react" target="_blank">
+          <a href="https://ijs.to/courses/react" rel="noopener noreferrer" target="_blank">
             React
           </a>
         </li>
         <li>
-          <a href="https://ijs.to/courses/graphql" target="_blank">
+          <a href="https://ijs.to/courses/graphql" rel="noopener noreferrer" target="_blank">
             GraphQL
           </a>
         </li>
         <li>
-          <a href="https://ijs.to/courses/" target="_blank">
+          <a href="https://ijs.to/courses/" rel="noopener noreferrer" target="_blank">
             and other courses
           </a>
         </li>
