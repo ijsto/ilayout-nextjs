@@ -46,11 +46,11 @@ cd inextjs-layout
 
 3. Install project dependencies
 
-`npm install` or `npm i`
+`yarn` or `npm install` or `npm i`
 
 To run the project locally:
 
-`npm run dev`
+`yarn dev` or `npm run dev`
 
 Starter project is live at: http://localhost:3000
 
@@ -58,4 +58,4 @@ Starter project is live at: http://localhost:3000
 
 ## Contributing
 
-All contributions and/or feature requests are most welcome!
+Have an idea how to make this starter better/more useful? Please submit a PR.
