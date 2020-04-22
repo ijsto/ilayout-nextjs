@@ -21,9 +21,9 @@ export const About = () => {
       <ul>
         <li>
           1. Clone the the{" "}
-          <a href="https://github.com/ijsto/inextjs-layout">starter repo</a>
+          <a href="https://github.com/ijsto/ilayout-nextjs">starter repo</a>
           <p>
-            <code>git clone git@github.com:ijsto/inextjs-layout.git</code>
+            <code>git clone git@github.com:ijsto/ilayout-nextjs.git</code>
           </p>
         </li>
         <li>
