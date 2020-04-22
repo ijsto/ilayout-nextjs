@@ -4,11 +4,9 @@
 [![ijs](https://img.shields.io/badge/learn%20code-black?&message=Courses&style=for-the-badge&label=ijs.to&colorA=FF6666&colorB=776677)](https://ijs.to)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=for-the-badge)](https://github.com/prettier/prettier)
 
-This is a free Next.js starter project with dynamic layouts by [iJS.to](https://ijs.to).
+Next.js starter app with a dynamic layout by [iJS.to](https://ijs.to).
 
-This project features the following:
-
-- NextJS app with dynamic layouts handled by components in `layouts/` folder.
+- NextJS app with dynamic layout handled find it in `layouts/` folder.
 
 - custom \_app.js file to support the layouts component
 
@@ -16,7 +14,7 @@ This project features the following:
 
 - dynamic and static page examples
 
-You can see a live demo of this repo at [inextjs-layout.now.sh](https://inextjs-layout.now.sh/)
+You can see a live demo of this repo at [ilayout-nextjs.now.sh](https://ilayout-nextjs.now.sh/)
 
 ## About
 
@@ -28,11 +26,11 @@ This example has been prepared to core 2 cases - main layout and single blog pos
 
 ## Get Started (3 minutes)
 
-1. Clone the the [starter repo](https://github.com/ijsto/inextjs-layout)
+1. Clone the the [starter repo](https://github.com/ijsto/ilayout-nextjs)
 
 ```
 
-git clone git@github.com:ijsto/inextjs-layout.git
+git clone git@github.com:ijsto/ilayout-nextjs.git
 
 ```
 
@@ -40,17 +38,17 @@ git clone git@github.com:ijsto/inextjs-layout.git
 
 ```
 
-cd inextjs-layout
+cd ilayout-nextjs
 
 ```
 
 3. Install project dependencies
 
-`npm install` or `npm i`
+`yarn` or `npm install` or `npm i`
 
 To run the project locally:
 
-`npm run dev`
+`yarn dev` or `npm run dev`
 
 Starter project is live at: http://localhost:3000
 
@@ -58,4 +56,8 @@ Starter project is live at: http://localhost:3000
 
 ## Contributing
 
-All contributions and/or feature requests are most welcome!
+Have an idea how to make this starter better/more useful? Please submit a PR.
+
+## Happy coding!
+
+JavaScript tutorials at [iJS.to](https://ijs.to/)

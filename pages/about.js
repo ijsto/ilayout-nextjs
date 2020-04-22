@@ -29,7 +29,7 @@ export const About = () => {
         <li>
           2. Enter the directory
           <p>
-            <code>cd inextjs-layout</code>
+            <code>cd ilayout-nextjs</code>
           </p>
         </li>
         <li>
