@@ -23,7 +23,7 @@ export const About = () => {
           1. Clone the the{' '}
           <a href="https://github.com/ijsto/ilayout-nextjs">starter repo</a>
           <p>
-            <code>git clone git@github.com:ijsto/ilayout-nextjs.git</code>
+            <code>git clone https://github.com/ijsto/ilayout-nextjs.git</code>
           </p>
         </li>
         <li>

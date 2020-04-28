@@ -30,7 +30,7 @@ This example has been prepared to core 2 cases - main layout and single blog pos
 
 ```
 
-git clone git@github.com:ijsto/ilayout-nextjs.git
+git clone https://github.com/ijsto/ilayout-nextjs.git
 
 ```
 
