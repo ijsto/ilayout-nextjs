@@ -1,6 +1,6 @@
-import Link from "next/link";
+import Link from 'next/link';
 
-export const Header = () => {
+const Header = () => {
   return (
     <header>
       <div>
@@ -58,7 +58,7 @@ export const Header = () => {
         }
 
         .js-font {
-          font-family: "Source Sans Pro", sans-serif;
+          font-family: 'Source Sans Pro', sans-serif;
           color: #776677;
           font-size: 2rem;
           margin-right: 4px;

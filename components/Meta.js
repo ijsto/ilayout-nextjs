@@ -1,6 +1,6 @@
-import Head from "next/head";
+import Head from 'next/head';
 
-export const Meta = () => {
+const Meta = () => {
   return (
     <>
       <Head>
@@ -19,7 +19,7 @@ export const Meta = () => {
         h2,
         h3,
         h4 {
-          font-family: "Source Sans Pro", sans-serif;
+          font-family: 'Source Sans Pro', sans-serif;
         }
 
         body {
@@ -33,7 +33,7 @@ export const Meta = () => {
         }
 
         * {
-          font-family: "Space Mono", sans-serif;
+          font-family: 'Space Mono', sans-serif;
           box-sizing: border-box;
           color: #776677;
           margin: 0;

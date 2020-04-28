@@ -3,24 +3,24 @@ export const About = () => {
     <div>
       <h1>About Page</h1>
       <p>
-        NextJS is a framework that makes it easy to create Universal web apps in
-        React.
+        Next.js is a framework that makes it easy to create Universal web apps
+        in React.
       </p>
       <p>
         With Next.js, React pages are automatically rendered on both client and
         server side, without the hassle of setting up dependancies like webpack
-        or babel and with automatic routing.{" "}
+        or babel and with automatic routing.{' '}
       </p>
       <p>
-        This is a simple starter project that demonstrates how to use NextJS
-        with custom layout and some modular styles via{" "}
-        <code>{"<style jsx />"}</code> and <code>{"<style global jsx />"}</code>{" "}
+        This is a simple starter project that demonstrates how to use Next.js
+        with custom layout and some modular styles via{' '}
+        <code>{'<style jsx />'}</code> and <code>{'<style global jsx />'}</code>{' '}
         tags.
       </p>
       <h2>Get Started (3 minutes)</h2>
       <ul>
         <li>
-          1. Clone the the{" "}
+          1. Clone the the{' '}
           <a href="https://github.com/ijsto/ilayout-nextjs">starter repo</a>
           <p>
             <code>git clone git@github.com:ijsto/ilayout-nextjs.git</code>
@@ -45,7 +45,7 @@ export const About = () => {
           </p>
         </li>
         <li>
-          Starter project is live at:{" "}
+          Starter project is live at:{' '}
           <a href="http://localhost:3000">http://localhost:3000</a>
         </li>
       </ul>

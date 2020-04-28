@@ -1,5 +1,5 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const SingleBookLayout = ({ children }) => (
   <>
@@ -33,7 +33,7 @@ const SingleBookLayout = ({ children }) => (
           max-width: 680px;
         }
       `}</style>
-      <Footer></Footer>
+      <Footer />
     </div>
   </>
 );

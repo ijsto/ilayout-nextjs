@@ -1,32 +1,37 @@
-export const Socials = () => {
+const Socials = () => {
   return (
     <>
       <div className="socials">
-        <a target="_blank" href="https://twitter.com/ijstodev">
-          <img src="/icon/twitter.png" className="icon" alt="my image" />
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href="https://twitter.com/ijstodev"
+        >
+          <img src="/icon/twitter.png" className="icon" alt="" />
         </a>
         <a
+          rel="noopener noreferrer"
           target="_blank"
           href="https://www.youtube.com/channel/UCk54GuQ7ha-wvviMimD8i1w"
         >
-          <img src="/icon/youtube.png" className="icon" alt="my image" />
+          <img src="/icon/youtube.png" className="icon" alt="" />
         </a>
-        <a target="_blank" href="https://www.instagram.com/ijsto/">
-          <img
-            src="/icon/instagram.png"
-            className="icon"
-            alt="my image"
-          />
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href="https://www.instagram.com/ijsto/"
+        >
+          <img src="/icon/instagram.png" className="icon" alt="" />
         </a>
-        <a target="_blank" href="https://www.facebook.com/IJS-349806719022014">
-          <img
-            src="/icon/facebook.png"
-            className="icon"
-            alt="my image"
-          />
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href="https://www.facebook.com/IJS-349806719022014"
+        >
+          <img src="/icon/facebook.png" className="icon" alt="" />
         </a>
         <a href="mailto:code@ijs.to">
-          <img src="/icon/email.png" className="icon" alt="my image" />
+          <img src="/icon/email.png" className="icon" alt="" />
         </a>
       </div>
       <style jsx>{`

@@ -1,15 +1,15 @@
-import Socials from "./Socials";
+import Socials from './Socials';
 
-export const Footer = () => {
+const Footer = () => {
   return (
     <>
       <footer>
         <Socials />
 
-        <div className="whatisthis">NextJS Starter App</div>
+        <div className="whatisthis">Next.js Starter App</div>
         <div className="madein">
-          Packaged with ♡ at{" "}
-          <a href="https://ijs.to/" target="_blank">
+          Packaged with ♡ at{' '}
+          <a href="https://ijs.to/" rel="noopener noreferrer" target="_blank">
             iJS.to
           </a>
         </div>
