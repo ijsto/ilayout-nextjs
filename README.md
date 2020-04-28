@@ -1,4 +1,4 @@
-<h1 align="center">NextJS Starter with dynamic layouts</h1>
+<h1 align="center">Next.js Starter with dynamic layouts</h1>
 
 [![github follow](https://img.shields.io/github/followers/ijsto?color=%23ff665a&label=Follow%20iJS.to&logo=github&style=for-the-badge)](https://github.com/ijsto)
 [![ijs](https://img.shields.io/badge/learn%20code-black?&message=Courses&style=for-the-badge&label=ijs.to&colorA=FF6666&colorB=776677)](https://ijs.to)
@@ -6,7 +6,7 @@
 
 Next.js starter app with a dynamic layout by [iJS.to](https://ijs.to).
 
-- NextJS app with dynamic layout handled find it in `layouts/` folder.
+- Next.js app with dynamic layout handled find it in `layouts/` folder.
 
 - custom \_app.js file to support the layouts component
 
