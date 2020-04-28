@@ -35,13 +35,13 @@ export const About = () => {
         <li>
           3. Install project dependencies
           <p>
-            <code>npm install</code> or <code>npm i</code>
+            <code>yarn</code> or <code>npm install</code> or <code>npm i</code>
           </p>
         </li>
         <li>
           To run the project locally:
           <p>
-            <code>npm run dev</code>
+            <code>yarn dev</code> or <code>npm run dev</code>
           </p>
         </li>
         <li>
