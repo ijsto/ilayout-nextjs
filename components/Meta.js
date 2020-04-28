@@ -1,13 +1,13 @@
 import Head from 'next/head';
 
-const Meta = () => {
+export const Meta = () => {
   return (
     <>
       <Head>
-        <title>iJS.to - Modern Javascript Courses</title>
+        <title>iNext.js | Next.js starter app by iJS.to</title>
 
         <link
-          href="https://fonts.googleapis.com/css?family=Space+Mono|Source+Sans+Pro:700&display=swap"
+          href="https://fonts.googleapis.com/css?family=Space+Mono|Spartan:700&display=swap"
           rel="stylesheet"
         />
         <link rel="shortcut icon" href="/favicon.png" />
@@ -19,7 +19,7 @@ const Meta = () => {
         h2,
         h3,
         h4 {
-          font-family: 'Source Sans Pro', sans-serif;
+          font-family: 'Spartan', sans-serif;
         }
 
         body {
@@ -43,11 +43,7 @@ const Meta = () => {
 
         a:hover {
           color: orange;
-        }
-
-        .content {
-          padding: 2em 3em;
-          padding-bottom: 300px;
+          text-decoration: none;
         }
       `}</style>
     </>
