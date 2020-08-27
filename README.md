@@ -60,4 +60,4 @@ Have an idea how to make this starter better/more useful? Please submit a PR.
 
 ## Happy coding!
 
-JavaScript tutorials at [iJS.to](https://ijs.to/)
+JavaScript tutorials at [iJS.to](https://ijs.to)
