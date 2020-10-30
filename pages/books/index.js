@@ -13,7 +13,7 @@ const Books = () => {
             https://iJS.to
             learn more about dynamic routes
         */}
-        <Link href="/b/[name]" as="/b/everybody-writes">
+        <Link href="/b/everybody-writes">
           <a>1. Everybody Writes</a>
         </Link>
       </p>
