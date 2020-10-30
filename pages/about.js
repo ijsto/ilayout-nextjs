@@ -14,8 +14,8 @@ export const About = () => {
       <p>
         This is a simple starter project that demonstrates how to use Next.js
         with custom layout and some modular styles via{' '}
-        <code>{'<style jsx />'}</code> and <code>{'<style global jsx />'}</code>{' '}
-        tags.
+        <code>{'<style jsx / >'}</code> and{' '}
+        <code>{'<style global jsx / >'}</code> tags.
       </p>
       <h2>Get Started (3 minutes)</h2>
       <ul>
@@ -48,9 +48,14 @@ export const About = () => {
           Starter project is live at:{' '}
           <a href="http://localhost:3000">http://localhost:3000</a>
         </li>
+
+        <li>
+          Live demo:{' '}
+          <a href="https://ilayout-nextjs.now.sh/">ilayout-nextjs.now.sh</a>
+        </li>
       </ul>
 
-      <h2>The starter is now ready - have fun!</h2>
+      <h2 style={{ marginTop: 32 }}>The starter is now ready - have fun!</h2>
       <style jsx>{`
         * {
           line-height: 1.5;
